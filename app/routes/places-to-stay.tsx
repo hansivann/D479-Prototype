@@ -14,16 +14,16 @@ export default function PlacesToStay() {
         <section className="rounded-lg border border-gray-300 p-6 text-center shadow-md transition-shadow duration-200 hover:shadow-lg">
           <h3 className="mb-2 text-3xl">TANITI LODGING</h3>
           <p className="text-gray-300">
-            Taniti has a wide variety of lodging that ranges from an inexpensive hostel to one
-            large, four-star resort. There are many small, family-owned hotels and a growing number
-            of bed and breakfasts.
+            Taniti has a wide variety of lodging that ranges from an inexpensive
+            hostel to one large, four-star resort. There are many small,
+            family-owned hotels and a growing number of bed and breakfasts.
           </p>
         </section>
         <section className="rounded-lg border border-gray-300 p-6 text-center shadow-md transition-shadow duration-200 hover:shadow-lg">
           <div className="text-left text-gray-300">
             <p>
-              All types of lodging are strictly regulated and regularly inspected by the Tanitian
-              government.
+              All types of lodging are strictly regulated and regularly
+              inspected by the Tanitian government.
             </p>
           </div>
         </section>

@@ -1,22 +1,44 @@
-import { Link } from "@remix-run/react"
+import { NavLink } from '@remix-run/react';
 
 export default function Navbar() {
+  const NAVSTYLE = ({ isActive }: { isActive: boolean }) =>
+    isActive ? 'text-amber-500' : '';
   return (
     <>
-      <div className="flex flex-col justify-center items-center p-20 gap-10">
+      <div className="flex flex-col items-center justify-center gap-10 p-20">
         <p className="text-6xl">
-          <Link to="/">T A N I T I</Link>
+          <NavLink to="/" className={NAVSTYLE}>
+            T A N I T I
+          </NavLink>
         </p>
         <ul className="flex gap-10 text-xl">
-            <Link to="/about">About</Link>
-            <Link to="/places-to-stay">Places to Stay</Link>
-            <Link to="/things-to-do">Things to Do</Link>
-            <Link to="/getting-here">Getting Here</Link>
-            <Link to="/plan-trip">PLAN TRIP</Link>
+          <li>
+            <NavLink to="/about" className={NAVSTYLE}>
+              About
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/places-to-stay" className={NAVSTYLE}>
+              Places to Stay
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/things-to-do" className={NAVSTYLE}>
+              Things to Do
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/getting-here" className={NAVSTYLE}>
+              Getting Here
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/plan-trip" className={NAVSTYLE}>
+              PLAN TRIP
+            </NavLink>
+          </li>
         </ul>
       </div>
-
     </>
-  )
+  );
 }
-
