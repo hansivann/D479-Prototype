@@ -7,7 +7,7 @@ export default function PlacesToStay() {
       <Navbar />
       <div className="flex flex-col items-center">
         <img
-          src="/public/images/beach-hut.jpg"
+          src="/images/beach-hut.jpg"
           alt="horizontal line of palm trees"
           className="mb-4 h-auto w-3/5"
         />

@@ -7,7 +7,7 @@ export default function GettingHere() {
       <Navbar />
       <div className="flex flex-col items-center">
         <img
-          src="public/images/palmtrees.jpg"
+          src="/images/palmtrees.jpg"
           alt=""
           className="mb-4 h-auto w-3/4 rounded-md"
         />
@@ -15,7 +15,7 @@ export default function GettingHere() {
         <h3 className="mb-2 text-3xl">TRANSPORTATION</h3>
         <section className="flex items-center justify-between space-x-4 rounded-lg border border-gray-300 p-6 text-center shadow-md transition-shadow duration-200 hover:shadow-lg">
           <img
-            src="/public/images/cruiseship.jpg"
+            src="/images/cruiseship.jpg"
             alt="beach hut"
             className="mb-4 h-auto w-2/4 rounded-md"
           />
@@ -39,7 +39,7 @@ export default function GettingHere() {
             surrounding Merriton Landing: this area is easy to explore on foot.
           </p>
           <img
-            src="/public/images/island bus.jpg"
+            src="/images/island bus.jpg"
             alt="beach hut"
             className="mb-4 h-auto w-2/4 rounded-md"
           />

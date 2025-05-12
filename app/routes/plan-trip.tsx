@@ -7,7 +7,7 @@ export default function PlanTrip() {
       <Navbar />
       <div className="flex flex-col items-center">
         <img
-          src="public/images/beach.jpg"
+          src="/images/beach.jpg"
           alt="beach"
           className="mb-4 h-auto w-3/4 rounded-md"
         />

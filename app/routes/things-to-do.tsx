@@ -27,7 +27,7 @@ export default function ThingsToDo() {
           </div>
           <div className="rounded-lg border border-gray-300 p-6 text-center shadow-md transition-shadow duration-200 hover:shadow-lg">
             <img
-              src="/public/images/octopus food.jpg"
+              src="/images/octopus food.jpg"
               alt="Fried Octopus"
               className="mb-4 h-64 w-full rounded-md object-cover"
             />
@@ -41,7 +41,7 @@ export default function ThingsToDo() {
         <h3 className="mb-2 text-3xl">Entertainment and Sightseeing</h3>
         <section className="flex items-center justify-between space-x-4 rounded-lg border border-gray-300 p-6 text-center shadow-md transition-shadow duration-200 hover:shadow-lg">
           <img
-            src="/public/images/beach-hut.jpg"
+            src="/images/beach-hut.jpg"
             alt="beach hut"
             className="mb-4 h-auto w-2/4 rounded-md"
           />
@@ -61,7 +61,7 @@ export default function ThingsToDo() {
             active volcano.
           </p>
           <img
-            src="/public/images/volcano.jpg"
+            src="/images/volcano.jpg"
             alt="beach hut"
             className="mb-4 h-auto w-2/4 rounded-md"
           />
