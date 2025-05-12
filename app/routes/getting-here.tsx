@@ -1,13 +1,12 @@
-import Footer from "~/components/Footer";
-import Navbar from "~/components/Navbar";
-
+import Footer from '~/components/Footer';
+import Navbar from '~/components/Navbar';
 
 export default function GettingHere() {
   return (
     <>
-        <Navbar />
-        <div>Getting here</div>
-        <Footer />
+      <Navbar />
+      <div>Getting here</div>
+      <Footer />
     </>
-  )
+  );
 }
