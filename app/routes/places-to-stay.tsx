@@ -1,3 +1,4 @@
+import Footer from "~/components/Footer";
 import Navbar from "~/components/Navbar";
 
 
@@ -6,6 +7,7 @@ export default function PlacesToStay() {
     <>
         <Navbar />
         <div>places to stay</div>
-        </>
+        <Footer />
+    </>
   )
 }

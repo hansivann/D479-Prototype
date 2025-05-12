@@ -1,5 +1,6 @@
 import type { MetaFunction } from "@remix-run/node";
 import { Link } from "@remix-run/react";
+import Footer from "~/components/Footer";
 import Navbar from "~/components/Navbar";
 
 export const meta: MetaFunction = () => {
@@ -43,14 +44,19 @@ export default function Index() {
       <h2 className="text-2xl font-bold text-center mt-10">EXPERIENCE THE CULTURE</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 p-4 pt-10">
         <div className="border border-gray-300 rounded-lg p-6 text-center shadow-md hover:shadow-lg transition-shadow duration-200">
+          <img src="/images/beach.jpg" alt="Beach" className="w-full h-64 object-cover rounded-md mb-4" />
           <h3 className="text-xl font-bold mb-4">Explore Beaches</h3>
-          <p className="text-gray-600">Discover the most beautiful beaches Taniti has to offer.</p>
+          <p className="text-gray-600">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi quis, molestiae quod soluta libero atque!
+          </p>
         </div>
         <div className="border border-gray-300 rounded-lg p-6 text-center shadow-md hover:shadow-lg transition-shadow duration-200">
+          <img src="/images/islet.jpg" alt="Island" className="w-full h-64 object-cover rounded-md mb-4" />
           <h3 className="text-xl font-bold mb-4">Stay</h3>
-          <p className="text-gray-600">Relax in luxurious hotels and enjoy world-class hospitality during your stay in Taniti.</p>
+          <p className="text-gray-600">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet itaque voluptas repudiandae. Sapiente, laboriosam veniam?</p>
         </div>
+
       </div>
+      <Footer />
     </>
   )
 }

@@ -1,10 +1,12 @@
+import Footer from "~/components/Footer"
 import Navbar from "~/components/Navbar"
 
 export default function About() {
   return (
     <>
-    <Navbar />
-    <div>about</div>
+      <Navbar />
+       <div>about</div>
+      <Footer />
     </>
   )
 }
