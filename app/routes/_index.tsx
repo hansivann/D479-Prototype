@@ -61,10 +61,9 @@ export default function Index() {
             alt="Island"
             className="mb-4 h-64 w-full rounded-md object-cover"
           />
-          <h3 className="mb-4 text-xl font-bold">Stay</h3>
+          <h3 className="mb-4 text-xl font-bold">Diverse Island</h3>
           <p className="text-gray-600">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet
-            itaque voluptas repudiandae. Sapiente, laboriosam veniam?
+            Experience the culture by visiting our beautiful island today!
           </p>
         </div>
         <div className="rounded-lg border border-gray-300 p-6 text-center shadow-md transition-shadow duration-200 hover:shadow-lg">
