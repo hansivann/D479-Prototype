@@ -9,8 +9,10 @@ declare module "@remix-run/node" {
 }
 
 export default defineConfig({
+  base: "/D479-Prototype/",
   plugins: [
     remix({
+      basename: "/D479-Prototype/",
       ssr:false,
       future: {
         v3_fetcherPersist: true,
