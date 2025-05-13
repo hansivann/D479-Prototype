@@ -91,7 +91,7 @@ export default function PlanTrip() {
               />
             </div>
             <button
-              type="submit"
+              type="button"
               className="mt-4 rounded-md bg-blue-500 px-4 py-2 text-white hover:bg-blue-600"
             >
               Submit
