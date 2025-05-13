@@ -7,7 +7,7 @@ export default function About() {
       <Navbar />
       <div className="flex flex-col items-center">
         <img
-          src="/images/palmtrees.jpg"
+          src="/D479-Prototype/images/palmtrees.jpg"
           alt="horizontal line of palm trees"
           className="mb-4 h-auto w-3/5"
         />

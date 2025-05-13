@@ -57,7 +57,7 @@ export default function Index() {
       <div className="grid grid-cols-1 gap-6 p-4 pt-10 md:grid-cols-2">
         <div className="rounded-lg border border-gray-300 p-6 text-center shadow-md transition-shadow duration-200 hover:shadow-lg">
           <img
-            src="/images/islet.jpg"
+            src="/D479-Prototype/images/islet.jpg"
             alt="Island"
             className="mb-4 h-64 w-full rounded-md object-cover"
           />
@@ -68,7 +68,7 @@ export default function Index() {
         </div>
         <div className="rounded-lg border border-gray-300 p-6 text-center shadow-md transition-shadow duration-200 hover:shadow-lg">
           <img
-            src="/images/beach.jpg"
+            src="/D479-Prototype/images/beach.jpg"
             alt="Beach"
             className="mb-4 h-64 w-full rounded-md object-cover"
           />
